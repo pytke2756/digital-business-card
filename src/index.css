@@ -1,9 +1,48 @@
 #root{
-    max-width: 470px;
+    max-width: 317px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
     font-family: "Inter", sans-serif
+}
+.info-img{
+    border-radius: 10px 10px 0 0;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+}
+.basic-info{
+    text-align: center;
+}
+.basic-info > h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.basic-info > h2{
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+.basic-info > h4{
+    font-size: 10.24px;
+}
+.basic-info > button{
+    width: 115px;
+    height: 34px;
+    font-size: 14px;
+    font-weight:500;
+    margin: 0 5px;
+    border-radius: 6px;
+    border: none;
+    
+}
+.email-btn{
+    background-color: #FFFFFF;
+}
+.linkedin-btn{
+    background-color: #5093E2;
+}
+button > i{
+    padding-right: 5px;
 }
 
 .other-info{
@@ -12,9 +51,12 @@
 .other-info > h2{
     margin-top: 5px;
     margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 800;
 }
 .other-info > p{
     margin-top: 5px;
+    font-size: 10.24px;
 }
 
 .about{
