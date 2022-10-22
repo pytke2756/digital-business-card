@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div>
       <img className="info-img" src={image}></img>
-      <div className="basic-info">
+      <div className="basic-info bck-grnd">
         <h1>Levente Ibrányi</h1>
         <h2>Fullstack Developer</h2>
         <h4>github.com/pytke2756</h4>

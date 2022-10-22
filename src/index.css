@@ -2,7 +2,7 @@
     max-width: 317px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: "Inter", sans-serif
 }
 .info-img{
@@ -10,13 +10,17 @@
     width: 317px;
     height: 317px;
     object-fit: cover;
+    display: block;
 }
 .basic-info{
     text-align: center;
 }
 .basic-info > h1{
+    padding-top: 10px;
+    margin-top: 0;
     font-size: 25px;
     font-weight: 900;
+    color: #FFFFFF;
 }
 .basic-info > h2{
     font-size: 12.8px;
@@ -24,6 +28,7 @@
 }
 .basic-info > h4{
     font-size: 10.24px;
+    color: #F5F5F5;
 }
 .basic-info > button{
     width: 115px;
@@ -40,6 +45,7 @@
 }
 .linkedin-btn{
     background-color: #5093E2;
+    color: #FFFFFF;
 }
 button > i{
     padding-right: 5px;
@@ -53,10 +59,12 @@ button > i{
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 800;
+    color: #F5F5F5;
 }
 .other-info > p{
     margin-top: 5px;
     font-size: 10.24px;
+    color: #DCDCDC;
 }
 
 .about{
@@ -68,6 +76,10 @@ footer{
     background-color: #161619;
     border-radius: 0 0 10px 10px;
     max-height: 100px;
+}
+
+.bck-grnd{
+    background-color: #1A1B21;
 }
 
 .footer-icon{

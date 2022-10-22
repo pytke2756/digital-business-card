@@ -6,12 +6,16 @@ import Interests from "./components/Interests";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return <>
-  <Info />
-  <About/>
-  <Interests />
-  <Footer />
-  </>;
+  return (
+    <>
+      <Info />
+      <div className="bck-grnd">
+        <About />
+        <Interests />
+      </div>
+      <Footer />
+    </>
+  );
 };
 
 export default App;
