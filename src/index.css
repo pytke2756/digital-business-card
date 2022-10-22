@@ -10,10 +10,15 @@
     padding: 15px 40px 30px;
 }
 .other-info > h2{
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 .other-info > p{
     margin-top: 5px;
+}
+
+.about{
+    padding: 10px 40px 10px;
 }
 
 footer{
