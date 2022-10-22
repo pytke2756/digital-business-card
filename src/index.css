@@ -3,6 +3,17 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
+    font-family: "Inter", sans-serif
+}
+
+.other-info{
+    padding: 15px 40px 30px;
+}
+.other-info > h2{
+    margin-bottom: 10px;
+}
+.other-info > p{
+    margin-top: 5px;
 }
 
 footer{
